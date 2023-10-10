@@ -97,6 +97,10 @@
     </form>
 
 <?php
+
+extension=php_pdo_sqlsrv_81_ts.dll
+extension=php_sqlsrv_81_ts.dll
+
 $serverName = "s30.winhost.com";
 $connectionInfo = array(
     "Database" => "DB_128040_group1",
