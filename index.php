@@ -53,14 +53,14 @@
             padding: 16px;
         }
 
-        span.psw {
+        span.password {
             float: right;
             padding-top: 16px;
         }
 
         /* Change styles for span and cancel button on extra small screens */
         @media screen and (max-width: 300px) {
-            span.psw {
+            span.password {
                 display: block;
                 float: none;
             }
@@ -81,11 +81,11 @@
         </div>
 
         <div class="container">
-            <label for="uname"><b>Username</b></label>
-            <input type="text" placeholder="Enter Username" name="uname" required>
+            <label for="username"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="username" required>
 
-            <label for="psw"><b>Password</b></label>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <label for="password"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="password" required>
 
             <button type="submit">Login</button>
             <label>
@@ -100,11 +100,11 @@
     </form>
 
 <?php
-$serverName = "serverName";
+$serverName = "s30.winhost.com";
 $connectionOptions = array(
-    "Database" => "dbName",
-    "Uid" => "username",
-    "PWD" => "password"
+    "Database" => "DB_128040_group1",
+    "Uid" => "DB_128040_group1_user",
+    "PWD" => "Bananas4Breakfast!"
 );
 
 // Establishes the connection
