@@ -101,14 +101,14 @@
 
 <?php
 $serverName = "s30.winhost.com";
-$connectionOptions = array(
+$connectionInfo = array(
     "Database" => "DB_128040_group1",
     "Uid" => "DB_128040_group1_user",
     "PWD" => "Bananas4Breakfast!"
 );
 
 // Establishes the connection
-$conn = sqlsrv_connect($serverName, $connectionOptions);
+$conn = sqlsrv_connect($serverName, $connectionInfo): source;
 
 if ($conn) {
     echo "Connected!";
