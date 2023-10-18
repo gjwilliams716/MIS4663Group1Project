@@ -95,7 +95,7 @@
             <span class="psw">Forgot <a href="#">password?</a></span>
         </div>
     </form>
-<a href="file:///C:/Users/jordan/Desktop/password/proposalstatus.html">Project Proposal Status</a>
+<a href="#/proposalstatus.html">Project Proposal Status</a>
 <?php
 
 $serverName = "s30.winhost.com";
