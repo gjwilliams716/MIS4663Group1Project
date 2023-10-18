@@ -1,7 +1,5 @@
 <?php
 // Get the form data
-$requestID = $_POST['Request_ID'];
-$clientID = $_POST['Client_ID'];
 $description = $_POST['Req_Description'];
 $dueDate = $_POST['Due_Date'];
 $dateSubmitted = $_POST['Date_Submitted'];
@@ -21,7 +19,7 @@ if ($conn->connect_error) {
 }
 
 // Prepare the SQL query
-$sql = "Request (Req_Description, Due_Date, Date_Submitted) VALUES ('$requestID', '$clientID', '$description', '$dueDate', '$dateSubmitted')";
+$sql = "Request (Req_Description, Due_Date, Date_Submitted) VALUES ('$description', '$dueDate', '$dateSubmitted')";
 
 // Execute the query and check if it was successful
 if ($conn->query($sql) === TRUE) {
