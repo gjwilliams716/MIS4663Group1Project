@@ -95,6 +95,7 @@
             <span class="psw">Forgot <a href="#">password?</a></span>
         </div>
     </form>
+    <a href="/projectproposal.html">Project Proposal Submission</a>
 <a href="/proposalstatus.html">Project Proposal Status</a>
 <?php
 
