@@ -9,7 +9,7 @@ $server = "s30.winhost.com";
 $connectionInfo = array("database" => "DB_128040_group1", "username" => "DB_128040_group1_user", "password" => "Bananas4Breakfast!");
                         
 // Create a connection to the database
-$conn = new mysqli($server, $connectionInfo);
+$conn = sqlsrv_connect($server, $connectionInfo);
 
 // Check the connection
 if ($conn->connect_error) {
