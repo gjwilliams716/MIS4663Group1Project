@@ -11,7 +11,7 @@ $username = "DB_128040_group1_user";
 $password = "Bananas4Breakfast!";
 
 // Create a connection to the database
-$conn = new mysqli($server, $database, $username, $password);
+$conn = new mysqli($server, $database, $username, $password, 3306);
 
 // Check the connection
 if ($conn->connect_error) {
