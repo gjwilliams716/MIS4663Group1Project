@@ -25,7 +25,7 @@ $sql = "Request (Req_Description, Due_Date, Date_Submitted) VALUES ('$descriptio
 if ($conn->query($sql) === TRUE) {
     echo "New record created successfully";
 } else {
-    echo "Error: " . $sql . "<br>" . $conn->error;
+    echo "Shumana: " . $sql . "<br>" . $conn->error;
 }
 
 // Close the database connection
