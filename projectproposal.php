@@ -22,19 +22,5 @@
     </form>
 </body>
 
-    <?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $Req_Description = htmlspecialchars($_POST["Req_Description"]);
-    $Due_Date = htmlspecialchars($_POST["Due_Date"]);
-    $Date_Submitted = htmlspecialchars($_POST["Date_Submitted"]);
-
-    if (empty($Req_Description) || empty($Due_Date) || empty($Date_Submitted)) {
-        echo "Please fill in all fields.";
-    } else {
-        // Here you can add your own code to process the form data
-        echo "Form submitted successfully!";
-    }
-}
-?>
-
+    
 </html>
