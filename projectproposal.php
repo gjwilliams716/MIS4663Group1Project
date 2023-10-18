@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Proposal Submission</title>
 </head>
-<body>
+</body>
     <h1>Submit Your Project Proposal</h1>
     <form action="submit_proposal.php" method="POST">    
 </p>
