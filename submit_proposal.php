@@ -2,7 +2,7 @@
 // Get the form data
 $description = $_POST['Req_Description'];
 $dueDate = $_POST['Due_Date'];
-$dateSubmitted = $_POST['project_datesubmitted'];
+$dateSubmitted = $_POST['Date-Submitted'];
 
 // Database connection information
 $server = "s30.winhost.com";
@@ -19,7 +19,7 @@ if ($conn->connect_error) {
 }
 
 // Prepare the SQL query
-$sql = "INSERT INTO YourTableName (Req_Description, Due_Date, project_datesubmitted) VALUES ('$description', '$dueDate', '$dateSubmitted')";
+$sql = "Request (Req_Description, Due_Date, Date_Submitted) VALUES ('$description', '$dueDate', '$dateSubmitted')";
 
 // Execute the query and check if it was successful
 if ($conn->query($sql) === TRUE) {
