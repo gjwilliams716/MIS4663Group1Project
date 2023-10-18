@@ -15,8 +15,8 @@
         <label for="Due_Date">Project Timeline:</label>
         <input type="text" id="Due_Date" name="Due_Date" required>
 </p>
-        <label for="project_datesubmitted">Date Submitted:</label>
-        <input type="text" id="project_datesubmitted" name="project_datesubmitted" required>
+        <label for="Date_Submitted">Date Submitted:</label>
+        <input type="text" id="Date_Submitted" name="Date_Submitted" required>
 </p>
         <input type="submit" value="Submit Proposal">
     </form>
