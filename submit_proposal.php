@@ -2,7 +2,7 @@
 // Get the form data
 $description = $_POST['Req_Description'];
 $dueDate = $_POST['Due_Date'];
-$dateSubmitted = $_POST['Date-Submitted'];
+$dateSubmitted = $_POST['Date_Submitted'];
 
 // Database connection information
 $server = "s30.winhost.com";
@@ -11,7 +11,7 @@ $username = "DB_128040_group1_user";
 $password = "Bananas4Breakfast!";
 
 // Create a connection to the database
-$conn = new mysqli($server, $database, $username, $password, 3306);
+$conn = new mysqli($server, $database, $username, $password);
 
 // Check the connection
 if ($conn->connect_error) {
