@@ -6,12 +6,10 @@ $dateSubmitted = $_POST['Date_Submitted'];
 
 // Database connection information
 $server = "s30.winhost.com";
-$database = "DB_128040_group1";
-$username = "DB_128040_group1_user";
-$password = "Bananas4Breakfast!";
-
+$connectionInfo = array($database => "DB_128040_group1", $username => "DB_128040_group1_user", $password => "Bananas4Breakfast!");
+                        
 // Create a connection to the database
-$conn = new mysqli($server, $database, $username, $password);
+$conn = new mysqli($server, $connectionInfo);
 
 // Check the connection
 if ($conn->connect_error) {
