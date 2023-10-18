@@ -9,11 +9,11 @@
     <h1>Submit Your Project Proposal</h1>
     <form action="submit_proposal.php" method="POST">    
 </p>
-        <label for="project_description">Project Description:</label>
-        <textarea id="project_description" name="project_description" rows="4" required></textarea>
+        <label for="Req_Description">Project Description:</label>
+        <textarea id="Req_Description" name="Req_Description" rows="4" required></textarea>
 </p>
-        <label for="project_timeline">Project Timeline:</label>
-        <input type="text" id="project_timeline" name="project_timeline" required>
+        <label for="Due_Date">Project Timeline:</label>
+        <input type="text" id="Due_Date" name="Due_Date" required>
 </p>
         <label for="project_datesubmitted">Date Submitted:</label>
         <input type="text" id="project_datesubmitted" name="project_datesubmitted" required>
