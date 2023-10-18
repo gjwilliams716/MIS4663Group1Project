@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- your head content goes here -->
+</head>
+<body>
+    <h1>Submit Your Project Proposal</h1>
+    <form action="submit_proposal.php" method="POST">    
+        <p>
+            <label for="Req_Description">Project Description:</label>
+            <textarea id="Req_Description" name="Req_Description" rows="4" required></textarea>
+        </p>
+        <p>
+            <label for="Due_Date">Project Timeline:</label>
+            <input type="text" id="Due_Date" name="Due_Date" required>
+        </p>
+        <p>
+            <label for="project_datesubmitted">Date Submitted:</label>
+            <input type="text" id="project_datesubmitted" name="project_datesubmitted" required>
+        </p>
+        <input type="submit" value="Submit Proposal">
+    </form>
+</body>
+</html>
