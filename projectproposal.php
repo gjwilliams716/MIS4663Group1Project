@@ -24,11 +24,11 @@
 
     <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $project_description = htmlspecialchars($_POST["project_description"]);
-    $project_timeline = htmlspecialchars($_POST["project_timeline"]);
-    $project_datesubmitted = htmlspecialchars($_POST["project_datesubmitted"]);
+    $Req_Description = htmlspecialchars($_POST["Req_Description"]);
+    $Due_Date = htmlspecialchars($_POST["Due_Date"]);
+    $Date_Submitted = htmlspecialchars($_POST["Date_Submitted"]);
 
-    if (empty($project_description) || empty($project_timeline) || empty($project_datesubmitted)) {
+    if (empty($Req_Description) || empty($Due_Date) || empty($Date_Submitted)) {
         echo "Please fill in all fields.";
     } else {
         // Here you can add your own code to process the form data
